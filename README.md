@@ -2,19 +2,19 @@
 
 Essa é a versão Brasileira do site [Kotlin](http://kotlinlang.org)
 
-- [Filing bugs](#filing-bugs)
-- [Installation](#installation)
-- [Working with site](#working-with-site)
+- [Como reportar um Bug ou sugestão](#filing-bugs)
+- [Instalação](#installation)
+- [Trabalhando com o site](#working-with-site)
     - [Run](#run-site)
-    - [Data](#data)
-    - [Templates](#templates)
-    - [Page metadata](#page-metadata)
+    - [Dados](#data)
+    - [Temas](#templates)
+    - [Metadados da página](#page-metadata)
     - [Writing content](#writing-content)
 
 
-Filing Bugs
+Como reportar um Bug ou sugestão
 ===========
-We use [YouTrack](http://youtrack.jetbrains.com/issues/KT#) for bug reports and suggestions. Click [here to report an issue](http://youtrack.jetbrains.com/newIssue?project=KT&clearDraft=true&c=Subsystems+Web+Site).
+Nós usamos [YouTrack](http://youtrack.jetbrains.com/issues/KT#) para reportar bugs e suguestões clique [aqui para reportar](http://youtrack.jetbrains.com/newIssue?project=KT&clearDraft=true&c=Subsystems+Web+Site).
 
 Instalação
 ============
@@ -25,14 +25,14 @@ Instalação
 - ruby + [kramdown](http://kramdown.gettalong.org/installation.html). Python has a very poor support for markdown, so kramdown is used as markdown to html converter
 - [nodejs](https://nodejs.org/en/) + npm to build frontend assets
 
-## Installation
+## Instalação
 
-After installation of required tools run `npm i` to download all frontend dependencies and `pip install -r requirements.txt` to download backend dependencies.
+Após a instalação das ferramentas necessárias, execute `npm i` Para baixar todas as dependências do frontend e `pip install -r requirements.txt` Para baixar dependências de backend.
 
-Working with site
+Trabalhando com o site
 =================
 
-## Run site
+## Executando o site
 
 - Use `npm run build` command to build assets. If you are going to modify js/scss files use `npm start` instead.
 - To run site use `python kotlin-website.py` command 
