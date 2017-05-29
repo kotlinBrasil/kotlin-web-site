@@ -59,7 +59,7 @@ Cada página pode ter um número ilimitado de campos de metadados. mais informa�
 
 ## Referência de gramática de Kotlin
 
-A referência de gramática de Kotlin (grammar.xml) é gerada por [Kotlin grammar generator](https://github.com/JetBrains/kotlin-grammar-generator) de [Kotlin grammar definition](https://github.com/JetBrains/kotlin/tree/master/grammar)
+A referência de gramática de Kotlin (grammar.xml) é gerada por [Kotlin grammar generator](https://github.com/kotlinBrasil/kotlin-grammar-generator) de [Kotlin grammar definition](https://github.com/kotlinBrasil/kotlin/tree/master/grammar)
 
 
 ## Escrevendo conteúdo
